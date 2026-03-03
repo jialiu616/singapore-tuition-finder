@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Singapore Enrichment Tuition Finder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🎓 Singapore Enrichment Tuition Finder</h1>
+            <p>Find the perfect enrichment classes based on your preferences</p>
+        </header>
+
+        <main>
+            <!-- Filter Section -->
+            <section class="filters-section">
+                <h2>Filter Classes</h2>
+                <form id="tuition-filter-form">
+                    <div class="filter-group">
+                        <label for="location">📍 Location:</label>
+                        <select id="location" name="location">
+                            <option value="">All Locations</option>
+                            <option value="central">Central Area</option>
+                            <option value="north">North Region</option>
+                            <option value="south">South Region</option>
+                            <option value="east">East Region</option>
+                            <option value="west">West Region</option>
+                        </select>
+                    </div>
+
+                    <div class="filter-group">
+                        <label for="timing">⏰ Timing:</label>
+                        <select id="timing" name="timing">
+                            <option value="">Any Time</option>
+                            <option value="weekday-morning">Weekday Morning</option>
+                            <option value="weekday-afternoon">Weekday Afternoon</option>
+                            <option value="weekday-evening">Weekday Evening</option>
+                            <option value="weekend-morning">Weekend Morning</option>
+                            <option value="weekend-afternoon">Weekend Afternoon</option>
+                        </select>
+                    </div>
+
+                    <div class="filter-group">
+                        <label for="module">📚 Class Module:</label>
+                        <select id="module" name="module">
+                            <option value="">All Modules</option>
+                            <option value="math">Mathematics</option>
+                            <option value="science">Science</option>
+                            <option value="english">English</option>
+                            <option value="chinese">Chinese</option>
+                            <option value="coding">Coding/Programming</option>
+                            <option value="art">Art & Creative</option>
+                            <option value="music">Music</option>
+                            <option value="sports">Sports & Physical</option>
+                        </select>
+                    </div>
+
+                    <div class="filter-group">
+                        <label for="age">👶 Student Age:</label>
+                        <select id="age" name="age">
+                            <option value="">All Ages</option>
+                            <option value="primary-1-3">Primary 1-3 (7-9 years)</option>
+                            <option value="primary-4-6">Primary 4-6 (10-12 years)</option>
+                            <option value="secondary-1-2">Secondary 1-2 (13-14 years)</option>
+                            <option value="secondary-3-4">Secondary 3-4 (15-16 years)</option>
+                            <option value="jc">Junior College (17-18 years)</option>
+                        </select>
+                    </div>
+
+                    <div class="filter-group">
+                        <label for="price-range">💰 Price Range (per lesson):</label>
+                        <select id="price-range" name="price-range">
+                            <option value="">Any Price</option>
+                            <option value="0-50">$0 - $50</option>
+                            <option value="50-100">$50 - $100</option>
+                            <option value="100-150">$100 - $150</option>
+                            <option value="150+">$150+</option>
+                        </select>
+                    </div>
+
+                    <button type="submit" class="search-btn">🔍 Search Classes</button>
+                    <button type="reset" class="reset-btn">Reset Filters</button>
+                </form>
+            </section>
+
+            <!-- Results Section -->
+            <section class="results-section">
+                <div class="results-header">
+                    <h2 id="results-count">_matching_classes_count_ Classes Found</h2>
+                    <div id="sort-options">
+                        <label for="sort-by">Sort by:</label>
+                        <select id="sort-by">
+                            <option value="relevance">Relevance</option>
+                            <option value="price-low">Price: Low to High</option>
+                            <option value="price-high">Price: High to Low</option>
+                            <option value="rating">Rating</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div id="results-container" class="results-grid">
+                    <!-- Results will be populated by JavaScript -->
+                </div>
+
+                <div id="no-results" class="no-results" style="display: none;">
+                    <h3>No classes found matching your criteria</h3>
+                    <p>Try adjusting your filters or search terms</p>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2026 Singapore Enrichment Tuition Finder | Data for educational purposes</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
