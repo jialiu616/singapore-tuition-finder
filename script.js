@@ -4,7 +4,7 @@ const tuitionData = [
     {
         id: 1,
         name: "The Learning Point",
-        module: "math",
+        module: "english",
         locations: [
             { region: "central", address: "101 Thomson Road, #08-01, Singapore 307591", phone: "+65 6345 6780" },
             { region: "west", address: "20 Ghim Moh Road, #02-12, Singapore 270020", phone: "+65 6345 6781" },
@@ -15,7 +15,7 @@ const tuitionData = [
         price: 95,
         rating: 4.7,
         email: "enquiry@learnpoint.sg",
-        description: "Established tuition center with proven track record in Mathematics. Multiple convenient locations."
+        description: "Established tuition center specializing in English language and literacy programs. Multiple convenient locations."
     },
     {
         id: 2,
@@ -35,8 +35,8 @@ const tuitionData = [
     },
     {
         id: 3,
-        name: "Joyme Learning Centre",
-        module: "english",
+        name: "Joyme Art Studio",
+        module: "art",
         locations: [
             { region: "west", address: "150 Jurong East Street 11, #04-20, Singapore 600150", phone: "+65 6567 8902" },
             { region: "south", address: "30 Alexandra Road, #02-05, Singapore 159955", phone: "+65 6567 8903" }
@@ -45,8 +45,8 @@ const tuitionData = [
         ageGroup: "primary-4-6",
         price: 70,
         rating: 4.5,
-        email: "contact@joymelearning.sg",
-        description: "Holistic English language development program with multiple accessible centers."
+        email: "contact@joymeart.com",
+        description: "Holistic and progressive arts education for children with focus on creativity development."
     },
     {
         id: 4,
@@ -66,34 +66,34 @@ const tuitionData = [
     },
     {
         id: 5,
-        name: "Wang Learning Centre",
-        module: "math",
+        name: "Wang Learning Centre (Wang Laoshi)",
+        module: "chinese",
         locations: [
             { region: "north", address: "300 Yishun Ring Road, #05-15, Singapore 768553", phone: "+65 6789 0124" },
             { region: "central", address: "45 Scotts Road, #08-02, Singapore 228239", phone: "+65 6789 0125" }
         ],
         timing: "weekend-afternoon",
-        ageGroup: "secondary-3-4",
+        ageGroup: "primary-4-6",
         price: 110,
         rating: 4.4,
-        email: "admin@wanglearning.sg",
-        description: "Specialized mathematics tuition with exam preparation focus. Convenient locations."
+        email: "admin@wang.edu.sg",
+        description: "Renowned Chinese tuition center (Wang Laoshi) specializing in PSLE Chinese preparation and language mastery."
     },
     {
         id: 6,
         name: "Mind Stretcher Education Centre",
-        module: "science",
+        module: "math",
         locations: [
             { region: "south", address: "120 Mount Faber Road, #03-05, Singapore 099214", phone: "+65 6890 1235" },
             { region: "west", address: "80 Boon Lay Drive, #04-10, Singapore 640080", phone: "+65 6890 1236" },
             { region: "east", address: "50 Marine Parade Road, #07-08, Singapore 440050", phone: "+65 6890 1237" }
         ],
         timing: "weekday-evening",
-        ageGroup: "secondary-1-2",
+        ageGroup: "primary-4-6",
         price: 125,
         rating: 4.7,
         email: "enquiries@mindstretcher.com",
-        description: "Critical thinking and problem-solving oriented science education. Island-wide presence."
+        description: "Premier education centre with Power Codes methodology for Mathematics. Also offers English and Science."
     },
     {
         id: 7,
