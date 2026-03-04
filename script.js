@@ -6,15 +6,16 @@ const tuitionData = [
         name: "The Learning Point",
         module: "english",
         locations: [
-            { region: "central", address: "101 Thomson Road, #08-01, Singapore 307591", phone: "+65 6345 6780" },
-            { region: "west", address: "20 Ghim Moh Road, #02-12, Singapore 270020", phone: "+65 6345 6781" },
-            { region: "east", address: "100 Bedok North Road, #03-25, Singapore 460100", phone: "+65 6345 6782" }
+            { region: "central", address: "301 Upper Thomson Road, #03-19/20, Thomson Plaza, Singapore 574408", phone: "+65 6453 3323" },
+            { region: "west", address: "1 Jalan Anak Bukit, #02-01D, Bukit Timah Plaza, Singapore 588996", phone: "+65 6465 1101" },
+            { region: "east", address: "1 Marine Parade Central, #05-07/08/09, Parkway Centre, Singapore 449408", phone: "+65 6447 0030" },
+            { region: "north", address: "681 Punggol Drive, #04-10/11, Oasis Terraces, Singapore 820681", phone: "+65 6244 8050" }
         ],
         timing: "weekday-evening",
         ageGroup: "secondary-1-2",
         price: 95,
         rating: 4.7,
-        email: "enquiry@learnpoint.sg",
+        email: "enquiry@learningpoint.com.sg",
         description: "Established tuition center specializing in English language and literacy programs. Multiple convenient locations."
     },
     {
@@ -22,15 +23,15 @@ const tuitionData = [
         name: "Tree Art Education Centre",
         module: "art",
         locations: [
-            { region: "east", address: "250 Sims Avenue, #03-10, Singapore 387508", phone: "+65 6456 7891" },
-            { region: "central", address: "50 Kim Yam Road, #04-08, Singapore 239315", phone: "+65 6456 7892" },
-            { region: "north", address: "120 Yishun Ring Road, #06-15, Singapore 768543", phone: "+65 6456 7893" }
+            { region: "central", address: "290 Orchard Road, #06-16, Paragon, Singapore 238859", phone: "+65 6836 0191" },
+            { region: "north", address: "930 Yishun Avenue 2, #03-64, Northpoint City, Singapore 769098", phone: "+65 6481 8369" },
+            { region: "east", address: "1 Tampines Walk, #02-35, Our Tampines Hub, Singapore 528523", phone: "+65 6260 4212" }
         ],
         timing: "weekend-morning",
         ageGroup: "primary-1-3",
         price: 60,
         rating: 4.6,
-        email: "info@treeart.sg",
+        email: "info@treeart.co",
         description: "Specialized art education with focus on creativity and technique. Convenient branches island-wide."
     },
     {
@@ -38,8 +39,7 @@ const tuitionData = [
         name: "Joyme Art Studio",
         module: "art",
         locations: [
-            { region: "west", address: "150 Jurong East Street 11, #04-20, Singapore 600150", phone: "+65 6567 8902" },
-            { region: "south", address: "30 Alexandra Road, #02-05, Singapore 159955", phone: "+65 6567 8903" }
+            { region: "west", address: "2 Venture Drive, #02-10, Vision Exchange, Singapore 608526", phone: "+65 9058 2468" }
         ],
         timing: "weekday-afternoon",
         ageGroup: "primary-4-6",
@@ -53,15 +53,16 @@ const tuitionData = [
         name: "I Can Read Learning Center",
         module: "english",
         locations: [
-            { region: "central", address: "80 Middle Road, #06-08, Singapore 188966", phone: "+65 6678 9013" },
-            { region: "east", address: "180 Joo Chiat Road, #07-04, Singapore 427449", phone: "+65 6678 9014" },
-            { region: "west", address: "100 Clementi Road, #02-15, Singapore 120100", phone: "+65 6678 9015" }
+            { region: "central", address: "101 Thomson Road, #01-41/42/43, United Square, Singapore 307591", phone: "+65 6397 7134" },
+            { region: "east", address: "80 Marine Parade Road, #12-01, Parkway Parade, Singapore 449269", phone: "+65 6440 6115" },
+            { region: "west", address: "135 Jurong Gateway Road, #03-339, Singapore 600135", phone: "+65 6569 0712" },
+            { region: "north", address: "53 Ang Mo Kio Ave 3, #03-05/06, AMK Hub, Singapore 569933", phone: "+65 6552 5122" }
         ],
         timing: "weekday-morning",
         ageGroup: "primary-1-3",
         price: 65,
         rating: 4.8,
-        email: "hello@icanread.sg",
+        email: "hello@icanread.asia",
         description: "Phonics-based reading program for young learners. Multiple branches for convenience."
     },
     {
@@ -69,8 +70,10 @@ const tuitionData = [
         name: "Wang Learning Centre (Wang Laoshi)",
         module: "chinese",
         locations: [
-            { region: "north", address: "300 Yishun Ring Road, #05-15, Singapore 768553", phone: "+65 6789 0124" },
-            { region: "central", address: "45 Scotts Road, #08-02, Singapore 228239", phone: "+65 6789 0125" }
+            { region: "east", address: "46 East Coast Road, #02-01, EastGate, Singapore 428766", phone: "+65 6441 6606" },
+            { region: "central", address: "896 Dunearn Road, #04-10, Link@896, Singapore 589472", phone: "+65 6592 2792" },
+            { region: "west", address: "321 Clementi Ave 3, #03-01A, Singapore 129905", phone: "+65 6517 9277" },
+            { region: "north", address: "598 Yishun Ring Road, #01-33/34, Wisteria Mall, Singapore 768698", phone: "+65 6282 6606" }
         ],
         timing: "weekend-afternoon",
         ageGroup: "primary-4-6",
@@ -84,9 +87,10 @@ const tuitionData = [
         name: "Mind Stretcher Education Centre",
         module: "math",
         locations: [
-            { region: "south", address: "120 Mount Faber Road, #03-05, Singapore 099214", phone: "+65 6890 1235" },
-            { region: "west", address: "80 Boon Lay Drive, #04-10, Singapore 640080", phone: "+65 6890 1236" },
-            { region: "east", address: "50 Marine Parade Road, #07-08, Singapore 440050", phone: "+65 6890 1237" }
+            { region: "central", address: "101 Thomson Road, #04-20/22, United Square, Singapore 307591", phone: "+65 6513 6606" },
+            { region: "west", address: "3151 Commonwealth Avenue West, #03-01, Grantral Mall, Singapore 129581", phone: "+65 6684 0060" },
+            { region: "east", address: "1 Marine Parade Central, #12-08, Parkway Centre, Singapore 449408", phone: "+65 6636 0010" },
+            { region: "north", address: "60 Yishun Avenue 4, #01-08, SAFRA Yishun, Singapore 769027", phone: "+65 6257 0100" }
         ],
         timing: "weekday-evening",
         ageGroup: "primary-4-6",
